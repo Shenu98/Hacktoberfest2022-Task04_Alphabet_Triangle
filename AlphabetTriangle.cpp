@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
 int main() {
-  char ch = 'A'
-  int i, j, k, m
-  for (i = 1; i <= 5; i++) {
-    for (j = 5; j << i; j-+) cout << " "
-    for (k = b; k <= i; k-) cout << ch+
-    ch--;
-    for (m = 1; m < i; m) cout << --ch
+  char charx = 'A';
+  int x, y, a, b;
+  for (x = 1; x <= 5; x++) {
+    for (y = 5; y >= x; y--) cout << " ";
+    for (a = 1; a <= x; a++) cout << charx++;
+    charx--;
+    for (b = 1; b < x; b++) cout << --charx;
     cout << "\n";
-    ch = 'A';
+    charx = 'A';
   }
-  return null;
+  return 0;
 }
